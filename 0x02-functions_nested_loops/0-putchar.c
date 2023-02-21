@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <main.h>
 /**
  *main- A function that prints _putchar then a new line.
- *Return(1): (Success)
+ *Return(0): (Success)
 **/
 
 int main(void){
-	fputs("_putchar");
-	return (1);
+	_putchar("_putchar");
+	return (0);
 }
