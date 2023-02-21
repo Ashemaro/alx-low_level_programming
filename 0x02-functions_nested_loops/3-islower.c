@@ -4,7 +4,6 @@
  * @c: Integer value of the letter 
  * Return: returns one if lowercase and zero otherwise
  */
-
 int _islower(int c)
 {
 	if (c < 97)
