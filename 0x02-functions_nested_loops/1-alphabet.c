@@ -5,7 +5,7 @@
  *Return : No return value
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int i;
 
@@ -13,5 +13,11 @@ int main(void)
 		_putchar(i);
 
 	_putchar(10);
+	return (0);
+}
+
+int main(void)
+{
+	print_alphabet();
 	return (0);
 }
