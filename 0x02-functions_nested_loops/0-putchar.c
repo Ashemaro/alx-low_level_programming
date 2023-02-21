@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *main- A function that prints _putchar then a new line.
- *Return(0): (Success)
-**/
+ *Return: No return value
+*/
 
 int main(void)
 {
