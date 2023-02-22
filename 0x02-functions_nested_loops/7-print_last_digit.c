@@ -31,6 +31,7 @@ int print_last_digit(int r)
 			{
 				return (i);
 			}
+		}
 	}
 	return (0);
 }
