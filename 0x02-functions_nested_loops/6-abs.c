@@ -5,7 +5,7 @@
  * Return: Returns nothing
  */
 
-int _abs(int)
+int _abs(int r)
 {
 	int abs;
 
