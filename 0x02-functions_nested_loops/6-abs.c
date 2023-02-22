@@ -9,9 +9,9 @@ int _abs(int r)
 {
 	int abs;
 
-	if ( r < 0)
+	if (r < 0)
 	{
-		abs = 0-r;
+		abs = 0 - r;
 		return (abs);
 	}
 	else
