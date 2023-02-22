@@ -5,9 +5,8 @@
  * Return: Returns nothing
  */
 
-int _abs(int r)
+int _abs(int)
 {
-	int r;
 	int abs;
 
 	if ( r < 0)
