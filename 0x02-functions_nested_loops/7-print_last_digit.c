@@ -12,11 +12,25 @@ int print_last_digit(int r)
 
 	for (i = 1; i <= 9; i++)
 	{
-		temp_int = r - i;
-		if (temp_int % 10 == 0)
+		if (r < 0)
 		{
-			_putchar('%d',i);
+			temp_int = r + i;
+			if (temp_int % 10 == 0)
+			{
+				return (i);
+			}
 		}
+		else if (r == 0)
+		{
+			return (0);
+		}
+		else
+		{
+			temp_int = r - i;
+			if (temp_int % 10 == 0)
+			{
+				return (i);
+			}
 	}
 	return (0);
 }
