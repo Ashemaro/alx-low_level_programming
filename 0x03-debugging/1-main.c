@@ -17,7 +17,6 @@ int main(void)
 	 * {
 	 * 	putchar(i);
 	 * }
-	 * Description: This loop will run infinitely
 	 */
 	printf("Infinite loop avoided! \\o/\n");
 
