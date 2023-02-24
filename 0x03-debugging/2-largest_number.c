@@ -11,11 +11,11 @@
   int largest_number(int a, int b, int c)
 {
 	int largest;
-	int num_array[3] = {int a, int b, int c};
+	int num_array[3] = {a, b, c};
 	int index;
 	int i;
 
-	for (int i = 0; i <=3; i++)
+	for (i = 0; i <=3; i++)
 	{
 		if (num_array[i] > num_array[i + 1])
 			index = num_array[i];
