@@ -11,21 +11,17 @@
   int largest_number(int a, int b, int c)
 {
 	int largest;
+	int num_array[3] = {int a, int b, int c};
+	int index;
+	int i;
 
-	if (a > b && a > c)
+	for (int i = 0; i <=3; i++)
 	{
-		largest = a;
+		if (num_array[i] > num_array[i + 1])
+			index = num_array[i];
+		else
+			index = num_array[i + 1];
 	}
-	else if (a > b && c > a)
-	{
-		largest = c;
-	}
-	else if (b > c)
-	{
-		largest = b;
-	}
-	else {largest = c;
-	}
-	
+	largest = index;
 	return (largest);
 }
