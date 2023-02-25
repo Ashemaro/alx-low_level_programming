@@ -26,7 +26,7 @@ int main(void)
 		{
 			printf("%d", i);
 		}
-		else if (i == )
+		else if (i == 1)
 		{
 			printf("%d", i);
 		}
