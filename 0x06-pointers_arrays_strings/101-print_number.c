@@ -5,7 +5,7 @@
  * Return: zero
  */
 
-void print_numbering(int n)
+void print_number(int n)
 {
 	unsigned int n1;
 
