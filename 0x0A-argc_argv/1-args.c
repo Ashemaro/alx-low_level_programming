@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
- * main - Prints out the name of the program
+ * main - Prints out the number of arguments provided
  * return - returns no value
  */
 
 int main(int argc, char *argv[])
 {
-	printf("%s \n", argv[0]);
+	if(argc > 1){
+		printf("%d \n", argc-1);
+	}
 	return 0;
 }
